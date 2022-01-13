@@ -1,0 +1,65 @@
+/* I add this line to all of my CSS files by default */
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/*main {
+    border: solid 4px hotpink;
+}
+
+section * {
+    border: solid 1px red;
+}
+*/
+section {
+    border: solid 1px #000;
+    width: 60vw;
+    padding: 1%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    position: fixed;
+    background-color: #f2f2f2;
+    width: 40vw;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    padding: 20px;
+}
+
+#home {
+    background-color: #DCF2B0;
+}
+
+#bio {
+    background-color: #C2EABD;
+}
+#portfolio {
+    background-color: #C0BABC;
+}
+#contact {
+    background-color: #CD533B;
+    color: white;
+}
+@media only screen and (max-width: 800px) {
+    aside {
+        display: none;
+    }
+    section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Your code here */
+}
+
